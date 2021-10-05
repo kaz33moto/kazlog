@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+}
+
+header{
+
+}
+
+header img{
+  width: 100%;
+  transition: all 0.3s;
+}
+
+header img:hover{
+  opacity: 0.8;
+}
+
+.main{
+
+}
+
+.bottom-menu{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+  opacity: 0.8;
+}
+
+.bottom-menu li{
+  list-style: none;
+  color: #333333;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  padding: 15px 10px;
+  margin: 15px 0px;
+  background-color: #cccccc;
+  border-radius: 30px;
+}
+
+.home-button li{
+  background-color: #444444;
+  color: #cccccc;
+}
+
+.bottom-menu a{
+  text-decoration: none;
+}
+
+.bottom-menu i{
+  padding-right: 20px;
+}
